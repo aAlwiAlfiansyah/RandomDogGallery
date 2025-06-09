@@ -6,7 +6,16 @@
 //
 
 import XCTest
+import Quick
+import Nimble
 @testable import Random_Dog_Gallery
+
+
+final class RandomDogGalleryTests: QuickSpec {
+  override class func spec(){
+    
+  }
+}
 
 final class Random_Dog_GalleryTests: XCTestCase {
 

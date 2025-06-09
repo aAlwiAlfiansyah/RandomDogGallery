@@ -12,7 +12,7 @@ import SwiftData
 struct Random_Dog_GalleryApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            DogImage.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,8 @@ struct Random_Dog_GalleryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          let model = DogImageViewModel(dogAPIServices: DogAPIServices())
+          DogImageGridView(viewModel: model)
         }
         .modelContainer(sharedModelContainer)
     }

@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		C16950E42DD44EF300C0819C /* Random_Dog_GalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16950E32DD44EF300C0819C /* Random_Dog_GalleryApp.swift */; };
-		C16950E62DD44EF300C0819C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16950E52DD44EF300C0819C /* ContentView.swift */; };
-		C16950E82DD44EF300C0819C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16950E72DD44EF300C0819C /* Item.swift */; };
 		C16950EA2DD44EF400C0819C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16950E92DD44EF400C0819C /* Assets.xcassets */; };
 		C16950ED2DD44EF400C0819C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16950EC2DD44EF400C0819C /* Preview Assets.xcassets */; };
-		C16950F72DD44EF400C0819C /* Random_Dog_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16950F62DD44EF400C0819C /* Random_Dog_GalleryTests.swift */; };
+		C16950F72DD44EF400C0819C /* RandomDogGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16950F62DD44EF400C0819C /* RandomDogGalleryTests.swift */; };
 		C16951012DD44EF400C0819C /* Random_Dog_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951002DD44EF400C0819C /* Random_Dog_GalleryUITests.swift */; };
 		C16951032DD44EF400C0819C /* Random_Dog_GalleryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951022DD44EF400C0819C /* Random_Dog_GalleryUITestsLaunchTests.swift */; };
+		C16951142DD4737D00C0819C /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951132DD4737D00C0819C /* DogImage.swift */; };
+		C16951172DD485CF00C0819C /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951162DD485CF00C0819C /* StringExtensions.swift */; };
+		C169511A2DD4873A00C0819C /* DogAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16951192DD4873A00C0819C /* DogAPIServices.swift */; };
+		C1D7350A2DED96A3004EE477 /* DogImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735092DED96A3004EE477 /* DogImageViewModel.swift */; };
+		C1D7350C2DEDED1D004EE477 /* DogImageGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7350B2DEDED1D004EE477 /* DogImageGridItemView.swift */; };
+		C1D7350E2DEDF478004EE477 /* DogImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7350D2DEDF478004EE477 /* DogImageGridView.swift */; };
+		C1D735102DEEF129004EE477 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7350F2DEEF129004EE477 /* ViewExtensions.swift */; };
+		C1D735132DEEF772004EE477 /* DogImageDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735122DEEF772004EE477 /* DogImageDetailViewModel.swift */; };
+		C1D735172DEEF7F1004EE477 /* DogImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735162DEEF7F1004EE477 /* DogImageDetailView.swift */; };
+		C1D735192DEF0279004EE477 /* DogImageListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735182DEF0279004EE477 /* DogImageListItemView.swift */; };
+		C1D7351F2DEF3127004EE477 /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = C1D7351E2DEF3127004EE477 /* Nimble */; };
+		C1D735222DEF3180004EE477 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = C1D735212DEF3180004EE477 /* Quick */; };
+		C1D735242DEF34D5004EE477 /* DogImageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */; };
+		C1D735262DEF51EA004EE477 /* DogImageDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +49,25 @@
 /* Begin PBXFileReference section */
 		C16950E02DD44EF300C0819C /* Random Dog Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Dog Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16950E32DD44EF300C0819C /* Random_Dog_GalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Dog_GalleryApp.swift; sourceTree = "<group>"; };
-		C16950E52DD44EF300C0819C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C16950E72DD44EF300C0819C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C16950E92DD44EF400C0819C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16950EC2DD44EF400C0819C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C16950F22DD44EF400C0819C /* Random Dog GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random Dog GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C16950F62DD44EF400C0819C /* Random_Dog_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Dog_GalleryTests.swift; sourceTree = "<group>"; };
+		C16950F62DD44EF400C0819C /* RandomDogGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDogGalleryTests.swift; sourceTree = "<group>"; };
 		C16950FC2DD44EF400C0819C /* Random Dog GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Random Dog GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16951002DD44EF400C0819C /* Random_Dog_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Dog_GalleryUITests.swift; sourceTree = "<group>"; };
 		C16951022DD44EF400C0819C /* Random_Dog_GalleryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Random_Dog_GalleryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C16951132DD4737D00C0819C /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		C16951162DD485CF00C0819C /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		C16951192DD4873A00C0819C /* DogAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPIServices.swift; sourceTree = "<group>"; };
+		C1D735092DED96A3004EE477 /* DogImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewModel.swift; sourceTree = "<group>"; };
+		C1D7350B2DEDED1D004EE477 /* DogImageGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageGridItemView.swift; sourceTree = "<group>"; };
+		C1D7350D2DEDF478004EE477 /* DogImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageGridView.swift; sourceTree = "<group>"; };
+		C1D7350F2DEEF129004EE477 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		C1D735122DEEF772004EE477 /* DogImageDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageDetailViewModel.swift; sourceTree = "<group>"; };
+		C1D735162DEEF7F1004EE477 /* DogImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageDetailView.swift; sourceTree = "<group>"; };
+		C1D735182DEF0279004EE477 /* DogImageListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageListItemView.swift; sourceTree = "<group>"; };
+		C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewModelTests.swift; sourceTree = "<group>"; };
+		C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageDetailViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D735222DEF3180004EE477 /* Quick in Frameworks */,
+				C1D7351F2DEF3127004EE477 /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +104,7 @@
 				C16950F52DD44EF400C0819C /* Random Dog GalleryTests */,
 				C16950FF2DD44EF400C0819C /* Random Dog GalleryUITests */,
 				C16950E12DD44EF300C0819C /* Products */,
+				C1D7351D2DEF3127004EE477 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,9 +121,10 @@
 		C16950E22DD44EF300C0819C /* Random Dog Gallery */ = {
 			isa = PBXGroup;
 			children = (
+				C16951152DD485A300C0819C /* Utils */,
+				C169510F2DD45C2900C0819C /* Home */,
+				C1D735112DEEF743004EE477 /* Details */,
 				C16950E32DD44EF300C0819C /* Random_Dog_GalleryApp.swift */,
-				C16950E52DD44EF300C0819C /* ContentView.swift */,
-				C16950E72DD44EF300C0819C /* Item.swift */,
 				C16950E92DD44EF400C0819C /* Assets.xcassets */,
 				C16950EB2DD44EF400C0819C /* Preview Content */,
 			);
@@ -116,7 +142,9 @@
 		C16950F52DD44EF400C0819C /* Random Dog GalleryTests */ = {
 			isa = PBXGroup;
 			children = (
-				C16950F62DD44EF400C0819C /* Random_Dog_GalleryTests.swift */,
+				C16950F62DD44EF400C0819C /* RandomDogGalleryTests.swift */,
+				C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */,
+				C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */,
 			);
 			path = "Random Dog GalleryTests";
 			sourceTree = "<group>";
@@ -128,6 +156,92 @@
 				C16951022DD44EF400C0819C /* Random_Dog_GalleryUITestsLaunchTests.swift */,
 			);
 			path = "Random Dog GalleryUITests";
+			sourceTree = "<group>";
+		};
+		C169510F2DD45C2900C0819C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C16951182DD4870B00C0819C /* Services */,
+				C16951102DD4726600C0819C /* Model */,
+				C16951112DD4726F00C0819C /* View */,
+				C16951122DD4728200C0819C /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C16951102DD4726600C0819C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C16951132DD4737D00C0819C /* DogImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C16951112DD4726F00C0819C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7350B2DEDED1D004EE477 /* DogImageGridItemView.swift */,
+				C1D735182DEF0279004EE477 /* DogImageListItemView.swift */,
+				C1D7350D2DEDF478004EE477 /* DogImageGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C16951122DD4728200C0819C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1D735092DED96A3004EE477 /* DogImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C16951152DD485A300C0819C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C16951162DD485CF00C0819C /* StringExtensions.swift */,
+				C1D7350F2DEEF129004EE477 /* ViewExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C16951182DD4870B00C0819C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C16951192DD4873A00C0819C /* DogAPIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C1D735112DEEF743004EE477 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				C1D735152DEEF7DD004EE477 /* View */,
+				C1D735142DEEF779004EE477 /* ViewModel */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		C1D735142DEEF779004EE477 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1D735122DEEF772004EE477 /* DogImageDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1D735152DEEF7DD004EE477 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1D735162DEEF7F1004EE477 /* DogImageDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1D7351D2DEF3127004EE477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +260,8 @@
 			dependencies = (
 			);
 			name = "Random Dog Gallery";
+			packageProductDependencies = (
+			);
 			productName = "Random Dog Gallery";
 			productReference = C16950E02DD44EF300C0819C /* Random Dog Gallery.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +280,10 @@
 				C16950F42DD44EF400C0819C /* PBXTargetDependency */,
 			);
 			name = "Random Dog GalleryTests";
+			packageProductDependencies = (
+				C1D7351E2DEF3127004EE477 /* Nimble */,
+				C1D735212DEF3180004EE477 /* Quick */,
+			);
 			productName = "Random Dog GalleryTests";
 			productReference = C16950F22DD44EF400C0819C /* Random Dog GalleryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -218,6 +338,10 @@
 				Base,
 			);
 			mainGroup = C16950D72DD44EF200C0819C;
+			packageReferences = (
+				C1D7351A2DEF30FB004EE477 /* XCRemoteSwiftPackageReference "Nimble" */,
+				C1D735202DEF3180004EE477 /* XCRemoteSwiftPackageReference "Quick" */,
+			);
 			productRefGroup = C16950E12DD44EF300C0819C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16950E62DD44EF300C0819C /* ContentView.swift in Sources */,
-				C16950E82DD44EF300C0819C /* Item.swift in Sources */,
+				C1D7350C2DEDED1D004EE477 /* DogImageGridItemView.swift in Sources */,
+				C16951172DD485CF00C0819C /* StringExtensions.swift in Sources */,
+				C1D735102DEEF129004EE477 /* ViewExtensions.swift in Sources */,
+				C1D7350A2DED96A3004EE477 /* DogImageViewModel.swift in Sources */,
+				C1D735172DEEF7F1004EE477 /* DogImageDetailView.swift in Sources */,
+				C1D735192DEF0279004EE477 /* DogImageListItemView.swift in Sources */,
+				C16951142DD4737D00C0819C /* DogImage.swift in Sources */,
+				C1D735132DEEF772004EE477 /* DogImageDetailViewModel.swift in Sources */,
 				C16950E42DD44EF300C0819C /* Random_Dog_GalleryApp.swift in Sources */,
+				C169511A2DD4873A00C0819C /* DogAPIServices.swift in Sources */,
+				C1D7350E2DEDF478004EE477 /* DogImageGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C16950F72DD44EF400C0819C /* Random_Dog_GalleryTests.swift in Sources */,
+				C1D735262DEF51EA004EE477 /* DogImageDetailViewModelTests.swift in Sources */,
+				C16950F72DD44EF400C0819C /* RandomDogGalleryTests.swift in Sources */,
+				C1D735242DEF34D5004EE477 /* DogImageViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +720,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C1D7351A2DEF30FB004EE477 /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		C1D735202DEF3180004EE477 /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C1D7351E2DEF3127004EE477 /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D7351A2DEF30FB004EE477 /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		C1D735212DEF3180004EE477 /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1D735202DEF3180004EE477 /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C16950D82DD44EF200C0819C /* Project object */;
 }
