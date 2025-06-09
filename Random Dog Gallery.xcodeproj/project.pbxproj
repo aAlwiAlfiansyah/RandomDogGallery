@@ -27,6 +27,7 @@
 		C1D735222DEF3180004EE477 /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = C1D735212DEF3180004EE477 /* Quick */; };
 		C1D735242DEF34D5004EE477 /* DogImageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */; };
 		C1D735262DEF51EA004EE477 /* DogImageDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */; };
+		C1D735282DF6BE61004EE477 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D735272DF6BE61004EE477 /* StringExtensionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		C1D735182DEF0279004EE477 /* DogImageListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageListItemView.swift; sourceTree = "<group>"; };
 		C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageViewModelTests.swift; sourceTree = "<group>"; };
 		C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImageDetailViewModelTests.swift; sourceTree = "<group>"; };
+		C1D735272DF6BE61004EE477 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				C16950F62DD44EF400C0819C /* RandomDogGalleryTests.swift */,
 				C1D735232DEF34D5004EE477 /* DogImageViewModelTests.swift */,
 				C1D735252DEF51EA004EE477 /* DogImageDetailViewModelTests.swift */,
+				C1D735272DF6BE61004EE477 /* StringExtensionsTests.swift */,
 			);
 			path = "Random Dog GalleryTests";
 			sourceTree = "<group>";
@@ -402,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D735282DF6BE61004EE477 /* StringExtensionsTests.swift in Sources */,
 				C1D735262DEF51EA004EE477 /* DogImageDetailViewModelTests.swift in Sources */,
 				C16950F72DD44EF400C0819C /* RandomDogGalleryTests.swift in Sources */,
 				C1D735242DEF34D5004EE477 /* DogImageViewModelTests.swift in Sources */,
