@@ -23,6 +23,14 @@ A simple SwiftUI-based app that show a collection of random dog pictures in grid
 
 ---
 
+## 🚀 Screen Recording
+
+Here's a demo of the app in action:
+
+https://github.com/aAlwiAlfiansyah/RandomDogGallery/blob/main/Resources/RandomDogGallery.mp4
+
+---
+
 ## 🛠 Instructions to Run the Application
 
 ### 📱 Requirements
