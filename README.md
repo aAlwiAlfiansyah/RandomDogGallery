@@ -19,6 +19,7 @@ A simple SwiftUI-based app that show a collection of random dog pictures in grid
 - Upon scrolling to the bottom, the app will append the next 10 random dog pictures
 - The listing page has a pull to refresh feature that will reset and reload the first 20 dog pictures
 - Simple detail page the show the picture of the dog, image name and the dog's breed
+- Random dog pictures are fetched from Dog CEO API (https://dog.ceo/api/breeds/image/random/), the internet's biggest collection of open source dog pictures.
 
 ---
 
